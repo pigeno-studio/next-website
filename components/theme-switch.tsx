@@ -37,9 +37,9 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
     "aria-label": `Switch to ${theme === "light" || isSSR ? "dark" : "light"} mode`,
 		onChange,
 	});
-
+	const AnyComponent = Component as any;
 	return (
-		<Component
+		<AnyComponent
 			{...getBaseProps({
 				className: clsx(
 					"px-px transition-opacity hover:opacity-80 cursor-pointer",
@@ -70,8 +70,8 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
 					),
 				})}
 			>
-			 {!isSelected || isSSR ? <SunFilledIcon size={22} /> : <MoonFilledIcon size={22} />}
+			{!isSelected || isSSR ? <SunFilledIcon size={22} /> : <MoonFilledIcon size={22} />}
 			</div>
-		</Component>
+		</AnyComponent>
 	);
 };
