@@ -16,7 +16,7 @@ export default function Home() {
 
       <div className="bg-gray-100 dark:bg-gray-900 transition duration-500">
         <header className="flex justify-between p-4 bg-white dark:bg-gray-800 shadow-md">
-          <h1 className="text-xl font-bold">欢迎来到PIGENO STUDIO</h1>
+          <h1 className="text-xl font-bold">欢迎来到PIGEON STUDIO</h1>
 
         </header>
 

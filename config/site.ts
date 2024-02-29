@@ -60,7 +60,7 @@ export const siteConfig = {
 		// },
 	],
 	links: {
-		github: "https://github.com/pigenowoo",
+		github: "https://github.com/pigeonwoo",
 		twitter: "https://twitter.com/getnextui",
 		docs: "https://nextui.org",
 		discord: "https://discord.gg/9b6yyZKmH4",
